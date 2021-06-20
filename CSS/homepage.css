@@ -3,7 +3,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Comic San MS, 'Trebuchet MS', sans-serif;
 }
 
-header {
+/* header {
 
     display: flex;
     flex-direction: r ow;
@@ -72,9 +72,7 @@ header img{
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
-    /* margin: 30px 30px; */
     display: block;
-    /* min-width: 150px; */
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -121,21 +119,12 @@ header img{
 }
 
 footer{
-    position: fixed;
-    /* background-image: url(../Assets/BackgroundCrop.png); */
     background-color: purple;
     display: flex;
     justify-content: space-between;
     left: 0;
     bottom: 0;
-    width: 100%;
     text-align: center;
-    /*background-size: 50%;
-    background-size: 3.2em;
-    background-size: 12px;
-    background-size: auto;   */
-
-
 }
 
 .footer-left{
@@ -152,12 +141,13 @@ footer{
 
 .footer-right .socmed{
     margin-left: 10px;
-}
+} */
 
 
 .content .text1{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 50px;
     font-size: 50px;
@@ -211,5 +201,37 @@ footer{
     font-size: 25px;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.content .convincing{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.content .convincing .register{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.content .convincing .register .register1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.content .convincing .register .register1 .register2 .picture img{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.content .convincing .register .register1 .register2 .desc{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    width: 250px;
 }
 
