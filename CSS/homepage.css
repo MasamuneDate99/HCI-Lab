@@ -169,8 +169,11 @@ footer{
     display: flex;
     justify-content: center;
     top: 0%;
-    width: 1920px;
-    height: 540px;
+}
+
+.content .Upper img{
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -190,8 +193,8 @@ footer{
 
 .content .middle .imageSlide img{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     padding-left: 150px;
     padding-right: 150px;
 }
