@@ -169,6 +169,8 @@ footer{
     display: flex;
     justify-content: center;
     top: 0%;
+    width: 1920px;
+    height: 540px;
 }
 
 
