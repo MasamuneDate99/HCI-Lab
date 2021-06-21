@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+}
+
+.TermsOfService {
+    margin-left: 60px;
+}
+
+.TermsText {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.TermsText .userLicense {
+    margin-left: 40px;
+}
+
+.PrivacyPolicy {
+    margin-left: 60px;
+}
+
+.PrivacyText {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.PrivacyText .userInfo {
+    margin-left: 40px;
+}
+
+.PrivacyText .ccpaText {
+    margin-left: 40px;
+}
+
+.PrivacyText .gdprText {
+    margin-left: 40px;
+}
