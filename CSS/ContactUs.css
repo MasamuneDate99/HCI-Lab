@@ -1,0 +1,29 @@
+
+.content .upper{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.content .upper .judul{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content .upper .desc{
+    text-align: center;
+}
+
+.lokasi{
+    margin-left: 150px;
+}
+
+.lokasi .descgambar{
+    text-align: justify;
+}
+
+.content .mid{
+    margin-left: 150px;
+    column-count: 2;
+}
