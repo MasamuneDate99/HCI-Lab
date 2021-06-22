@@ -1,7 +1,7 @@
 
 .content .upper{
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -24,6 +24,21 @@
 }
 
 .content .mid{
+    display: flex;
     margin-left: 150px;
-    column-count: 2;
+    margin-right: 150px;
+    justify-content: space-between;
+
+}
+
+.content .lokasi{
+    margin-bottom: 70px;
+}
+
+.content .lokasi .gamdesc{
+    display: flex;
+}
+
+.content .lokasi .gamdesc .gambar{
+    margin-right: 20px;
 }
