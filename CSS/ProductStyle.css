@@ -4,4 +4,10 @@
 
 .ProductImage {
     display: flex;
+    margin-left: 20px;
+}
+
+.ProductImage img:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
